@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@types/debug": "^4.1.8",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "dev": "DEBUG=Icseon.* npx nodemon src/Application.ts"
+  },
+  "dependencies": {
+    "debug": "^4.3.4"
+  }
+}
